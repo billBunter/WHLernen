@@ -1,0 +1,2 @@
+Vertices = "V={A,B,C,D,E}"
+Edges = "E={<A,B,0>;<A,C,0>;<A,D,0>;<B,C,0>;<B,D,0>;<D,C,0>;<D,E,0>;<C,E,0>}
