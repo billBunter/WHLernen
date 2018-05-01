@@ -1,5 +1,7 @@
 package wdu.baume;
 
+import wdu.baume.uevier.Order;
+
 public class BinarieTree {
 
     private Node root;
@@ -45,18 +47,28 @@ public class BinarieTree {
         System.out.println("Insert hase been done.");
     }
 
-    public void proOroder(){
-        preOrderRekursiv(root);
+    public void printTree(Order order){
+        if (order == Order.IN){
+            inOrderRecursiv(root);
+        } else if (order == Order.POST) {
+            postOrderRecursiv(root);
+        } else {
+            preOrderRekursiv(root);
+        }
     }
 
     private void postOrderRecursiv(Node t){
-
+        if (t != null){
+            postOrderRecursiv(t.getLeft());
+            postOrderRecursiv(t.getRight());
+            System.out.print(t.toString()+",");
+        }
     }
 
     private void inOrderRecursiv(Node t){
         if (t != null){
             inOrderRecursiv(t.getLeft());
-            System.out.println(t.toString()+",");
+            System.out.print(t.toString()+",");
             inOrderRecursiv(t.getRight());
         }
     }
