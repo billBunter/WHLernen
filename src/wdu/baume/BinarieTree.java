@@ -69,7 +69,7 @@ public class BinarieTree {
         if (t != null){
             inOrderRecursiv(t.getLeft());
             System.out.print(t.toString()+",");
-            inOrderRecursiv(t.getRight());
+            inOrderRecursiv(t.getRight ());
         }
     }
 
@@ -78,6 +78,21 @@ public class BinarieTree {
             System.out.print(t.toString()+",");
             preOrderRekursiv(t.getLeft());
             preOrderRekursiv(t.getRight());
+        }
+    }
+
+    public void dieSucheInDerTiefe(){
+        dieSucheInDerTiefeRecursief(root);
+    }
+
+    private void dieSucheInDerTiefeRecursief(Node v) {
+        System.out.print(v.toString()+",");
+        v.setMarkiert(true);
+        //for every neighbour
+        if (v.getLeft() != null && !v.getLeft().getMarkiert()){
+            dieSucheInDerTiefeRecursief(v.getLeft());
+        } if (v.getRight()  != null && !v.getRight().getMarkiert()){
+            dieSucheInDerTiefeRecursief(v.getRight());
         }
     }
 

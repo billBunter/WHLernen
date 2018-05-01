@@ -7,6 +7,7 @@ public class Node<T> {
     private Node<T> parent;
     private T data;
     private int depth;
+    private boolean markiert = false;
 
     public Node(T data){
         this.data = data;
@@ -57,6 +58,14 @@ public class Node<T> {
 
     public void setDepth(int depth) {
         this.depth = depth;
+    }
+
+    public boolean getMarkiert(){
+        return markiert;
+    }
+
+    public void setMarkiert(boolean b){
+        markiert = b;
     }
 
     @Override

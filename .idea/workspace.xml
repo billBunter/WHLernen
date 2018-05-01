@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de2e06d8-1a2f-479c-9f0d-72e136c1e001" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/wdu/baume/uevier/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/wdu/patternmatching/BoyerMoor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/WHLernen/wdu/baume/BinarieTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WHLernen/wdu/baume/BinarieTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WHLernen/wdu/baume/uevier/SequenzZuVerkettung.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WHLernen/wdu/baume/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WHLernen/wdu/baume/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/wdu/baume/BinarieTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wdu/baume/BinarieTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/wdu/baume/uevier/SequenzZuVerkettung.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wdu/baume/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wdu/baume/Node.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,15 +25,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BinarieTree.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BinarieTree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/wdu/baume/BinarieTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="71" column="38" lean-forward="true" selection-start-line="71" selection-start-column="38" selection-end-line="71" selection-end-column="38" />
+            <state relative-caret-position="319">
+              <caret line="93" column="27" selection-start-line="93" selection-start-column="27" selection-end-line="93" selection-end-column="27" />
               <folding>
                 <element signature="method#BinarieTree#0;class#BinarieTree#0" />
                 <element signature="method#insertNode#0;class#BinarieTree#0" />
-                <element signature="method#insertSequnz#0;class#BinarieTree#0" />
+                <element signature="e#2331#2332#0" expanded="true" />
+                <element signature="e#2360#2361#0" expanded="true" />
                 <element signature="method#insertNode#1;class#BinarieTree#0" />
                 <element signature="method#goLeft#0;class#BinarieTree#0" />
                 <element signature="method#getDepthOfPos#0;class#BinarieTree#0" />
@@ -51,13 +52,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/wdu/baume/Node.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="72" selection-start-line="72" selection-end-line="72" />
+              <folding>
+                <element signature="e#400#401#0" expanded="true" />
+                <element signature="e#427#428#0" expanded="true" />
+                <element signature="e#746#747#0" expanded="true" />
+                <element signature="e#782#783#0" expanded="true" />
+                <element signature="e#870#871#0" expanded="true" />
+                <element signature="e#902#903#0" expanded="true" />
+                <element signature="e#1105#1106#0" expanded="true" />
+                <element signature="e#1135#1136#0" expanded="true" />
+                <element signature="e#1172#1173#0" expanded="true" />
+                <element signature="e#1200#1201#0" expanded="true" />
+                <element signature="e#1288#1289#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+            <state relative-caret-position="199">
+              <caret line="58" column="35" lean-forward="true" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#main#0;class#Main#0" />
+                <element signature="e#1091#1092#0" expanded="true" />
+                <element signature="e#1124#1125#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,8 +121,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -114,7 +140,6 @@
         <option value="$PROJECT_DIR$/src/wdu/baume/BinaryNode.java" />
         <option value="$PROJECT_DIR$/src/wdu/baume/Tree.java" />
         <option value="$PROJECT_DIR$/src/wdu/baume/BinarySearchTree.java" />
-        <option value="$PROJECT_DIR$/src/wdu/baume/Node.java" />
         <option value="$PROJECT_DIR$/src/wdu/baume/uevier/SequenzZuVerkettung.java" />
         <option value="$PROJECT_DIR$/src/wdu/hash/MyOwnHashmap.java" />
         <option value="$PROJECT_DIR$/src/wdu/graph/Edges.java" />
@@ -125,6 +150,8 @@
         <option value="$PROJECT_DIR$/src/wdu/graph/AdjancencyList.java" />
         <option value="$PROJECT_DIR$/src/wdu/hash/KollisionsStrategien.java" />
         <option value="$PROJECT_DIR$/src/wdu/baume/uevier/Order.java" />
+        <option value="$PROJECT_DIR$/src/wdu/patternmatching/BoyerMoor.java" />
+        <option value="$PROJECT_DIR$/src/wdu/baume/Node.java" />
         <option value="$PROJECT_DIR$/src/wdu/baume/BinarieTree.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
@@ -178,21 +205,6 @@
               <item name="wdu" type="462c0819:PsiDirectoryNode" />
               <item name="baume" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="WHLernen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WHLernen" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="wdu" type="462c0819:PsiDirectoryNode" />
-              <item name="baume" type="462c0819:PsiDirectoryNode" />
-              <item name="uevier" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WHLernen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WHLernen" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="wdu" type="462c0819:PsiDirectoryNode" />
-              <item name="hash" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -210,11 +222,11 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Billy\Documents\Temp\ITB3\AlgoDat\Workspace\WHKlausurLernen\WHLernen\src\wdu\graph" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="wdu.graph" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Billy\Documents\Temp\ITB3\AlgoDat\Workspace\WHKlausurLernen\WHLernen\src\wdu\graph" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -230,6 +242,17 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Main">
+    <configuration name="BoyerMoor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="wdu.patternmatching.BoyerMoor" />
+      <module name="WHLernen" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="wdu.patternmatching.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="KollisionsStrategien" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="wdu.hash.KollisionsStrategien" />
       <module name="WHLernen" />
@@ -302,10 +325,12 @@
       <item itemvalue="Application.SequenzZuVerkettung" />
       <item itemvalue="Application.KollisionsStrategien" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.BoyerMoor" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.BoyerMoor" />
         <item itemvalue="Application.KollisionsStrategien" />
         <item itemvalue="Application.SequenzZuVerkettung" />
       </list>
@@ -323,7 +348,7 @@
       <updated>1524739341540</updated>
       <workItem from="1524739344915" duration="16915000" />
       <workItem from="1524816305806" duration="13460000" />
-      <workItem from="1525162203744" duration="1166000" />
+      <workItem from="1525162203744" duration="14616000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1524826809504</created>
@@ -346,11 +371,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525040400885</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1.5. 10:30">
+      <created>1525163418363</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1525163418363</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31541000" />
+    <option name="totallyTimeSpent" value="44991000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -366,7 +398,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32968536" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24760602" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -395,19 +427,32 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="1.5. 10:30" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.5. 10:30" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/wdu/baume/BinarieTree.java</url>
-          <line>46</line>
+          <url>file://$PROJECT_DIR$/src/wdu/patternmatching/BoyerMoor.java</url>
+          <line>12</line>
           <properties />
-          <option name="timeStamp" value="3" />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/wdu/patternmatching/BoyerMoor.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/wdu/baume/BinarieTree.java</url>
+          <line>84</line>
+          <properties />
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="5" />
+      <option name="time" value="14" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -418,7 +463,8 @@
           <folding>
             <element signature="method#BinarieTree#0;class#BinarieTree#0" />
             <element signature="method#insertNode#0;class#BinarieTree#0" />
-            <element signature="method#insertSequnz#0;class#BinarieTree#0" />
+            <element signature="e#2331#2332#0" expanded="true" />
+            <element signature="e#2360#2361#0" expanded="true" />
             <element signature="method#insertNode#1;class#BinarieTree#0" />
             <element signature="method#goLeft#0;class#BinarieTree#0" />
             <element signature="method#getDepthOfPos#0;class#BinarieTree#0" />
@@ -529,7 +575,8 @@
           <folding>
             <element signature="method#BinarieTree#0;class#BinarieTree#0" />
             <element signature="method#insertNode#0;class#BinarieTree#0" />
-            <element signature="method#insertSequnz#0;class#BinarieTree#0" />
+            <element signature="e#2331#2332#0" expanded="true" />
+            <element signature="e#2360#2361#0" expanded="true" />
             <element signature="method#insertNode#1;class#BinarieTree#0" />
             <element signature="method#goLeft#0;class#BinarieTree#0" />
             <element signature="method#getDepthOfPos#0;class#BinarieTree#0" />
@@ -578,19 +625,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/wdu/baume/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="63" column="30" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
-          <folding>
-            <element signature="e#746#747#0" expanded="true" />
-            <element signature="e#782#783#0" expanded="true" />
-            <element signature="e#870#871#0" expanded="true" />
-            <element signature="e#902#903#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/wdu/graph/AdjancencyList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -626,13 +660,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/wdu/baume/uevier/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/wdu/baume/uevier/SequenzZuVerkettung.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -640,27 +667,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/wdu/patternmatching/BoyerMoor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        <state relative-caret-position="56">
+          <caret line="11" column="61" lean-forward="true" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wdu/baume/uevier/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wdu/baume/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#746#747#0" expanded="true" />
+            <element signature="e#782#783#0" expanded="true" />
+            <element signature="e#870#871#0" expanded="true" />
+            <element signature="e#902#903#0" expanded="true" />
+            <element signature="e#1105#1106#0" expanded="true" />
+            <element signature="e#1135#1136#0" expanded="true" />
+            <element signature="e#1172#1173#0" expanded="true" />
+            <element signature="e#1200#1201#0" expanded="true" />
+            <element signature="e#1288#1289#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/wdu/baume/BinarieTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="71" column="38" lean-forward="true" selection-start-line="71" selection-start-column="38" selection-end-line="71" selection-end-column="38" />
+        <state relative-caret-position="319">
+          <caret line="93" column="27" selection-start-line="93" selection-start-column="27" selection-end-line="93" selection-end-column="27" />
           <folding>
             <element signature="method#BinarieTree#0;class#BinarieTree#0" />
             <element signature="method#insertNode#0;class#BinarieTree#0" />
-            <element signature="method#insertSequnz#0;class#BinarieTree#0" />
+            <element signature="e#2331#2332#0" expanded="true" />
+            <element signature="e#2360#2361#0" expanded="true" />
             <element signature="method#insertNode#1;class#BinarieTree#0" />
             <element signature="method#goLeft#0;class#BinarieTree#0" />
             <element signature="method#getDepthOfPos#0;class#BinarieTree#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="58" column="35" lean-forward="true" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#main#0;class#Main#0" />
+            <element signature="e#1091#1092#0" expanded="true" />
+            <element signature="e#1124#1125#0" expanded="true" />
           </folding>
         </state>
       </provider>
