@@ -10,8 +10,10 @@ public class ProxyCalculator implements Calculator {
 
     @Override
     public int calculate(int numOne, int numTwo) {
-        //real class gets created
-        calculator = new RealCalculator();
+        //real class gets created if not yet
+        if (calculator == null){
+            calculator = new RealCalculator();
+        }
         //gets used
         int returnInt = calculator.calculate(numOne,numTwo);
         //and gets deleted

@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de2e06d8-1a2f-479c-9f0d-72e136c1e001" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/proxy/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/proxy/ProxyCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/proxy/RealCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/proxy/RunMe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/StatePattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/File.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/FileHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/FileState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/RunMe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/StateClosed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/StateOpen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/proxy/ProxyCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/proxy/ProxyCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/StatePattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/StatePattern.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,42 +27,95 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RealCalculator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/proxy/RealCalculator.java">
+      <file leaf-file-name="StatePattern.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/StatePattern.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+            <state relative-caret-position="226">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
               <folding>
-                <element signature="e#157#158#0" expanded="true" />
-                <element signature="e#181#182#0" expanded="true" />
+                <element signature="e#0#1075#0" expanded="true" />
+                <element signature="e#95#96#0" expanded="true" />
+                <element signature="e#120#121#0" expanded="true" />
+                <element signature="e#154#155#0" expanded="true" />
+                <element signature="e#182#183#0" expanded="true" />
+                <element signature="e#825#826#0" expanded="true" />
+                <element signature="e#879#880#0" expanded="true" />
+                <element signature="e#1140#1141#0" expanded="true" />
+                <element signature="e#1198#1199#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProxyCalculator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/proxy/ProxyCalculator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Calculator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/proxy/Calculator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RunMe.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/proxy/RunMe.java">
+      <file leaf-file-name="StateOpen.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/StateOpen.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+              <folding>
+                <element signature="e#132#133#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StateClosed.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/StateClosed.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileState.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/FileState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="File.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/File.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+              <folding>
+                <element signature="e#208#209#0" expanded="true" />
+                <element signature="e#241#242#0" expanded="true" />
+                <element signature="e#273#274#0" expanded="true" />
+                <element signature="e#293#294#0" expanded="true" />
+                <element signature="e#294#295#0" expanded="true" />
+                <element signature="e#327#328#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/FileHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+              <folding>
+                <element signature="e#201#202#0" expanded="true" />
+                <element signature="e#222#223#0" expanded="true" />
+                <element signature="e#249#250#0" expanded="true" />
+                <element signature="e#270#271#0" expanded="true" />
+                <element signature="e#122#123#0" expanded="true" />
+                <element signature="e#151#152#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RunMe.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/RunMe.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -78,6 +134,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>child</find>
+      <find />
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -104,12 +161,22 @@
         <option value="$PROJECT_DIR$/src/wdu/baume/BinarieTree.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/StatePattern.java" />
-        <option value="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/StatePattern.java" />
         <option value="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/proxy/RealLogic.java" />
         <option value="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/proxy/Calculator.java" />
         <option value="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/proxy/RealCalculator.java" />
-        <option value="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/proxy/ProxyCalculator.java" />
         <option value="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/proxy/RunMe.java" />
+        <option value="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/proxy/ProxyCalculator.java" />
+        <option value="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/StatePattern.java" />
+        <option value="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/State.java" />
+        <option value="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/ContextButton.java" />
+        <option value="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/StateOff.java" />
+        <option value="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/StateOn.java" />
+        <option value="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/File.java" />
+        <option value="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/FileState.java" />
+        <option value="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/StateOpen.java" />
+        <option value="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/FileHandler.java" />
+        <option value="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/RunMe.java" />
+        <option value="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/StateClosed.java" />
       </list>
     </option>
   </component>
@@ -158,7 +225,7 @@
               <item name="WHLernen" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+              <item name="state" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -198,7 +265,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.RunMe">
     <configuration name="BoyerMoor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="wdu.patternmatching.BoyerMoor" />
       <module name="WHLernen" />
@@ -225,6 +292,17 @@
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="WHLernen" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="RunMe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="at.fhv.ooa.wdu.patterns.state.RunMe" />
+      <module name="WHLernen" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.fhv.ooa.wdu.patterns.state.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration name="SequenzZuVerkettung" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="wdu.baume.uevier.SequenzZuVerkettung" />
@@ -283,9 +361,11 @@
       <item itemvalue="Application.KollisionsStrategien" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.BoyerMoor" />
+      <item itemvalue="Application.RunMe" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RunMe" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.BoyerMoor" />
         <item itemvalue="Application.KollisionsStrategien" />
@@ -307,7 +387,7 @@
       <workItem from="1524816305806" duration="13460000" />
       <workItem from="1525162203744" duration="14738000" />
       <workItem from="1525265877738" duration="14000" />
-      <workItem from="1528787115968" duration="3048000" />
+      <workItem from="1528787115968" duration="5206000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1524826809504</created>
@@ -351,47 +431,54 @@
       <option name="project" value="LOCAL" />
       <updated>1528787140800</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="proxy">
+      <created>1528876155378</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1528876155378</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48175000" />
+    <option name="totallyTimeSpent" value="50333000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="PlantUML" />
-      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="PlantUML" order="0" />
+      <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info id="simpleUML" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info id="simpleUML" order="0" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info id="Image Layers" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.24760602" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2536913" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Designer" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2536913" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32909605" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info id="UI Designer" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4117647" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.3294271" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.3294271" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32968536" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32968536" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32968536" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -404,7 +491,8 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="1.5. 10:30" />
     <MESSAGE value="2.5. 0:27" />
-    <option name="LAST_COMMIT_MESSAGE" value="2.5. 0:27" />
+    <MESSAGE value="proxy" />
+    <option name="LAST_COMMIT_MESSAGE" value="proxy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -432,60 +520,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/wdu/baume/BinarieTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
-          <caret line="93" column="27" selection-start-line="93" selection-start-column="27" selection-end-line="93" selection-end-column="27" />
-          <folding>
-            <element signature="method#BinarieTree#0;class#BinarieTree#0" />
-            <element signature="method#insertNode#0;class#BinarieTree#0" />
-            <element signature="method#insertNode#1;class#BinarieTree#0" />
-            <element signature="method#goLeft#0;class#BinarieTree#0" />
-            <element signature="method#getDepthOfPos#0;class#BinarieTree#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wdu/baume/uevier/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wdu/baume/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
-          <folding>
-            <element signature="e#1105#1106#0" expanded="true" />
-            <element signature="e#1136#1137#0" expanded="true" />
-            <element signature="e#1288#1289#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wdu/graph/Graph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wdu/graph/GraphNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wdu/graph/Edge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -802,25 +836,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/StatePattern.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-431">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#156#157#0" expanded="true" />
-            <element signature="e#189#190#0" expanded="true" />
-            <element signature="e#225#226#0" expanded="true" />
-            <element signature="e#261#262#0" expanded="true" />
-            <element signature="e#1031#1032#0" expanded="true" />
-            <element signature="e#1103#1104#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/proxy/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/proxy/RunMe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/proxy/ProxyCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -835,17 +868,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/proxy/ProxyCalculator.java">
+    <entry file="file://$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/StatePattern.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        <state relative-caret-position="226">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="e#0#1075#0" expanded="true" />
+            <element signature="e#95#96#0" expanded="true" />
+            <element signature="e#120#121#0" expanded="true" />
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#825#826#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+            <element signature="e#1140#1141#0" expanded="true" />
+            <element signature="e#1198#1199#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/proxy/RunMe.java">
+    <entry file="file://$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/StateOpen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding>
+            <element signature="e#132#133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/FileState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <folding>
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/FileHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <folding>
+            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#122#123#0" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/RunMe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/StateClosed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
         </state>
       </provider>
     </entry>
