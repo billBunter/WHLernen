@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de2e06d8-1a2f-479c-9f0d-72e136c1e001" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/File.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/FileHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/FileState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/RunMe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/StateClosed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/StateOpen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/memento/CareTaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/memento/Memento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/memento/Originator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/memento/RunMe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/observer/AvgObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/observer/DataSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/observer/RunMe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/observer/SumObserver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/proxy/ProxyCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/proxy/ProxyCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/StatePattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/StatePattern.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,95 +28,58 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="StatePattern.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/StatePattern.java">
+      <file leaf-file-name="AvgObserver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/observer/AvgObserver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
-              <folding>
-                <element signature="e#0#1075#0" expanded="true" />
-                <element signature="e#95#96#0" expanded="true" />
-                <element signature="e#120#121#0" expanded="true" />
-                <element signature="e#154#155#0" expanded="true" />
-                <element signature="e#182#183#0" expanded="true" />
-                <element signature="e#825#826#0" expanded="true" />
-                <element signature="e#879#880#0" expanded="true" />
-                <element signature="e#1140#1141#0" expanded="true" />
-                <element signature="e#1198#1199#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="272">
+              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StateOpen.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/StateOpen.java">
+      <file leaf-file-name="SumObserver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/observer/SumObserver.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+              <caret line="7" selection-start-line="7" selection-end-line="12" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Observer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/observer/Observer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataSubject.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/observer/DataSubject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
               <folding>
-                <element signature="e#132#133#0" expanded="true" />
+                <element signature="e#160#161#0" expanded="true" />
+                <element signature="e#187#188#0" expanded="true" />
+                <element signature="e#595#596#0" expanded="true" />
+                <element signature="e#633#634#0" expanded="true" />
+                <element signature="e#663#664#0" expanded="true" />
+                <element signature="e#693#694#0" expanded="true" />
+                <element signature="e#719#720#0" expanded="true" />
+                <element signature="e#757#758#0" expanded="true" />
+                <element signature="e#787#788#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StateClosed.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/StateClosed.java">
+      <file leaf-file-name="RunMe.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/observer/RunMe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileState.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/FileState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="File.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/File.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-              <folding>
-                <element signature="e#208#209#0" expanded="true" />
-                <element signature="e#241#242#0" expanded="true" />
-                <element signature="e#273#274#0" expanded="true" />
-                <element signature="e#293#294#0" expanded="true" />
-                <element signature="e#294#295#0" expanded="true" />
-                <element signature="e#327#328#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/FileHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-              <folding>
-                <element signature="e#201#202#0" expanded="true" />
-                <element signature="e#222#223#0" expanded="true" />
-                <element signature="e#249#250#0" expanded="true" />
-                <element signature="e#270#271#0" expanded="true" />
-                <element signature="e#122#123#0" expanded="true" />
-                <element signature="e#151#152#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RunMe.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/RunMe.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+            <state relative-caret-position="289">
+              <caret line="17" column="45" lean-forward="true" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -134,7 +98,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>child</find>
-      <find />
+      <find>class file</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -177,6 +141,15 @@
         <option value="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/FileHandler.java" />
         <option value="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/RunMe.java" />
         <option value="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/StateClosed.java" />
+        <option value="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/memento/Memento.java" />
+        <option value="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/memento/Originator.java" />
+        <option value="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/memento/CareTaker.java" />
+        <option value="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/memento/RunMe.java" />
+        <option value="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/observer/Observer.java" />
+        <option value="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/observer/DataSubject.java" />
+        <option value="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/observer/SumObserver.java" />
+        <option value="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/observer/AvgObserver.java" />
+        <option value="$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/observer/RunMe.java" />
       </list>
     </option>
   </component>
@@ -225,7 +198,7 @@
               <item name="WHLernen" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="state" type="462c0819:PsiDirectoryNode" />
+              <item name="observer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -246,11 +219,13 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="wdu.graph" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Billy\Documents\Temp\ITB3\AlgoDat\Workspace\WHKlausurLernen\WHLernen\src\wdu\graph" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="at.fhv.ooa.wdu.patterns.observer" />
+      <recent name="at.fhv.ooa.wdu.patterns.memento" />
+      <recent name="wdu.graph" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -265,7 +240,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RunMe">
+  <component name="RunManager" selected="Application.RunMe (2)">
     <configuration name="BoyerMoor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="wdu.patternmatching.BoyerMoor" />
       <module name="WHLernen" />
@@ -277,21 +252,32 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="KollisionsStrategien" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="wdu.hash.KollisionsStrategien" />
-      <module name="WHLernen" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="wdu.hash.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="WHLernen" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="RunMe (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="at.fhv.ooa.wdu.patterns.memento.RunMe" />
+      <module name="WHLernen" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.fhv.ooa.wdu.patterns.memento.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="RunMe (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="at.fhv.ooa.wdu.patterns.observer.RunMe" />
+      <module name="WHLernen" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.fhv.ooa.wdu.patterns.observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration name="RunMe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="at.fhv.ooa.wdu.patterns.state.RunMe" />
@@ -300,17 +286,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="at.fhv.ooa.wdu.patterns.state.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="SequenzZuVerkettung" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="wdu.baume.uevier.SequenzZuVerkettung" />
-      <module name="WHLernen" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="wdu.baume.uevier.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -357,19 +332,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.SequenzZuVerkettung" />
-      <item itemvalue="Application.KollisionsStrategien" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.BoyerMoor" />
       <item itemvalue="Application.RunMe" />
+      <item itemvalue="Application.RunMe (1)" />
+      <item itemvalue="Application.RunMe (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RunMe (2)" />
+        <item itemvalue="Application.RunMe (1)" />
         <item itemvalue="Application.RunMe" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.BoyerMoor" />
-        <item itemvalue="Application.KollisionsStrategien" />
-        <item itemvalue="Application.SequenzZuVerkettung" />
       </list>
     </recent_temporary>
   </component>
@@ -387,7 +362,7 @@
       <workItem from="1524816305806" duration="13460000" />
       <workItem from="1525162203744" duration="14738000" />
       <workItem from="1525265877738" duration="14000" />
-      <workItem from="1528787115968" duration="5206000" />
+      <workItem from="1528787115968" duration="9758000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1524826809504</created>
@@ -438,11 +413,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528876155378</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="state">
+      <created>1528878348603</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1528878348603</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50333000" />
+    <option name="totallyTimeSpent" value="54885000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -450,32 +432,32 @@
     <layout>
       <window_info anchor="right" id="PlantUML" order="0" />
       <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info id="simpleUML" order="0" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info id="Image Layers" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24760602" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2536913" />
       <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32909605" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info id="UI Designer" order="5" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4117647" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info id="simpleUML" order="0" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32909605" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info id="Image Layers" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24717514" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2536913" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32909605" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4117647" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.3294271" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32968536" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -492,7 +474,8 @@
     <MESSAGE value="1.5. 10:30" />
     <MESSAGE value="2.5. 0:27" />
     <MESSAGE value="proxy" />
-    <option name="LAST_COMMIT_MESSAGE" value="proxy" />
+    <MESSAGE value="state" />
+    <option name="LAST_COMMIT_MESSAGE" value="state" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -520,96 +503,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="58" column="35" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#main#0;class#Main#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wdu/baume/BinarieTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
-          <caret line="93" column="27" selection-start-line="93" selection-start-column="27" selection-end-line="93" selection-end-column="27" />
-          <folding>
-            <element signature="method#BinarieTree#0;class#BinarieTree#0" />
-            <element signature="method#insertNode#0;class#BinarieTree#0" />
-            <element signature="method#insertNode#1;class#BinarieTree#0" />
-            <element signature="method#goLeft#0;class#BinarieTree#0" />
-            <element signature="method#getDepthOfPos#0;class#BinarieTree#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wdu/baume/uevier/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wdu/baume/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
-          <folding>
-            <element signature="e#1105#1106#0" expanded="true" />
-            <element signature="e#1136#1137#0" expanded="true" />
-            <element signature="e#1288#1289#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wdu/graph/Graph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wdu/graph/GraphNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wdu/graph/Edge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="58" column="35" lean-forward="true" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#main#0;class#Main#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wdu/baume/BinarieTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="57" column="41" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
-          <folding>
-            <element signature="method#BinarieTree#0;class#BinarieTree#0" />
-            <element signature="method#insertNode#0;class#BinarieTree#0" />
-            <element signature="method#insertNode#1;class#BinarieTree#0" />
-            <element signature="method#goLeft#0;class#BinarieTree#0" />
-            <element signature="method#getDepthOfPos#0;class#BinarieTree#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/wdu/baume/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
@@ -868,34 +761,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/StatePattern.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="e#0#1075#0" expanded="true" />
-            <element signature="e#95#96#0" expanded="true" />
-            <element signature="e#120#121#0" expanded="true" />
-            <element signature="e#154#155#0" expanded="true" />
-            <element signature="e#182#183#0" expanded="true" />
-            <element signature="e#825#826#0" expanded="true" />
-            <element signature="e#879#880#0" expanded="true" />
-            <element signature="e#1140#1141#0" expanded="true" />
-            <element signature="e#1198#1199#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/StateOpen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding>
-            <element signature="e#132#133#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/FileState.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -933,6 +798,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/StateClosed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/StatePattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="62" column="22" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#1075#0" expanded="true" />
+            <element signature="e#95#96#0" expanded="true" />
+            <element signature="e#120#121#0" expanded="true" />
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#825#826#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+            <element signature="e#1140#1141#0" expanded="true" />
+            <element signature="e#1198#1199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/StateOpen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding>
+            <element signature="e#132#133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/RunMe.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -940,10 +840,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/state/StateClosed.java">
+    <entry file="file://$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/memento/Memento.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding>
+            <element signature="e#133#134#0" expanded="true" />
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/memento/Originator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+          <folding>
+            <element signature="e#131#132#0" expanded="true" />
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#129#130#0" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/memento/CareTaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#173#174#0" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/memento/RunMe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="50" lean-forward="true" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/observer/Observer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/observer/DataSubject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+          <folding>
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+            <element signature="e#663#664#0" expanded="true" />
+            <element signature="e#693#694#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+            <element signature="e#757#758#0" expanded="true" />
+            <element signature="e#787#788#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/observer/SumObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/observer/AvgObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/at/fhv/ooa/wdu/patterns/observer/RunMe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="45" lean-forward="true" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
         </state>
       </provider>
     </entry>
